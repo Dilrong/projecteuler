@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e31e03-0057-4148-9c34-e8f1a8af367b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Q2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/projecteuler$Q1.coverage" NAME="Q1 Coverage Results" MODIFIED="1522806827566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/projecteuler$Q2.coverage" NAME="Q2 Coverage Results" MODIFIED="1522816727675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/projecteuler$Q2.coverage" NAME="Q2 Coverage Results" MODIFIED="1522817409582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/projecteuler$Q3.coverage" NAME="Q3 Coverage Results" MODIFIED="1522817740481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -26,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Q2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,6 +64,8 @@
         <option value="$PROJECT_DIR$/Q1..py" />
         <option value="$PROJECT_DIR$/Q1.py" />
         <option value="$PROJECT_DIR$/Q2.py" />
+        <option value="$PROJECT_DIR$/venv/Q3.py" />
+        <option value="$PROJECT_DIR$/Q3.py" />
       </list>
     </option>
   </component>
@@ -82,6 +95,11 @@
               <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
               <item name="projecteuler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projecteuler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projecteuler" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -103,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q2">
+  <component name="RunManager" selected="Python.Q3">
     <configuration name="Q1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projecteuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,12 +160,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Q3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="projecteuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.Q1" />
       <item itemvalue="Python.Q2" />
+      <item itemvalue="Python.Q3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q3" />
         <item itemvalue="Python.Q2" />
         <item itemvalue="Python.Q1" />
       </list>
@@ -216,8 +255,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Q3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
