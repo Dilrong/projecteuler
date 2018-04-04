@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e31e03-0057-4148-9c34-e8f1a8af367b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Q5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Q4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Q5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Q5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,16 +17,17 @@
     <SUITE FILE_PATH="coverage/projecteuler$Q1.coverage" NAME="Q1 Coverage Results" MODIFIED="1522806827566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/projecteuler$Q4.coverage" NAME="Q4 Coverage Results" MODIFIED="1522820933202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/projecteuler$Q2.coverage" NAME="Q2 Coverage Results" MODIFIED="1522817409582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/projecteuler$Q5.coverage" NAME="Q5 Coverage Results" MODIFIED="1522825367699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/projecteuler$Q5.coverage" NAME="Q5 Coverage Results" MODIFIED="1522825798672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/projecteuler$Q6.coverage" NAME="Q6 Coverage Results" MODIFIED="1522825803051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/projecteuler$Q3.coverage" NAME="Q3 Coverage Results" MODIFIED="1522817740481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q5.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Q5.py">
+      <file leaf-file-name="Q6.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="323">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -53,6 +54,7 @@
         <option value="$PROJECT_DIR$/Q3.py" />
         <option value="$PROJECT_DIR$/Q4.py" />
         <option value="$PROJECT_DIR$/Q5.py" />
+        <option value="$PROJECT_DIR$/Q6.py" />
       </list>
     </option>
   </component>
@@ -108,26 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q5">
-    <configuration name="Q1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="projecteuler" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Q6">
     <configuration name="Q2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="projecteuler" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,20 +187,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Q6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="projecteuler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Q1" />
       <item itemvalue="Python.Q2" />
       <item itemvalue="Python.Q3" />
       <item itemvalue="Python.Q4" />
       <item itemvalue="Python.Q5" />
+      <item itemvalue="Python.Q6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q6" />
         <item itemvalue="Python.Q5" />
         <item itemvalue="Python.Q4" />
         <item itemvalue="Python.Q3" />
         <item itemvalue="Python.Q2" />
-        <item itemvalue="Python.Q1" />
       </list>
     </recent_temporary>
   </component>
@@ -308,8 +310,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Q5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
